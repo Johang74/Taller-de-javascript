@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estudios realizados</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+
+<body onload="main()">
+    
+    <header>
+        <h1>Estudios realizados</h1>
+        <ul class="navegacion">
+            <li class="navegacion" ><a class="navegacion" href="index.html">Informacion principal</a></li>
+            <li class="navegacion"><a  class="navegacion"href="experiencia.html">Experiencia laboral</a></li>
+            <li class="navegacion"><a  class="navegacion"href="referencias_personales.html">Referencias personales</a></li>
+            <li class="navegacion"><a  class="navegacion"href="referencias_familiares.html">Referencias familiares</a></li>
+            <li class="navegacion activa"><a  class="navegacion"href="estudios.html">Estudios realizados</a></li>
+          </ul>
+    </header>
+    <header class="botones">
+        <button class="boton boton1" onclick="cambiarColor1()" >Color 1</button>
+        <button class="boton boton2" onclick="cambiarColor2()">Color 2 </button>
+        <button class="boton boton3" onclick="cambiarColor3()">Color 3</button>
+    </header>
+    <section>
+        <article>
+            <h2>Estudios realizados</h2>
+            <p>Clic en cada elemento para ocultar</p>
+        <table border="3">
+
+            <tr onclick="mostrar()">
+              <th>Institucion</th>
+              <th>Fecha</th>
+              <th>Titulo obtenido</th>
+            </tr>
+          
+            <tr class="ocultar" id="1" onclick="ocultar(1)">
+                <td>Institucion educativa Donmatias</td>
+                <td>2002-2015</td>
+                <td>Bachiller academico</td>
+            
+            </tr>
+            <tr class="ocultar" id="2" onclick="ocultar(2)">
+                <td>Corporacion universitaria Remington</td>
+                <td>2019-Actualidad</td>
+                <td>En curso</td>
+            </tr>
+           
+          
+          </table>
+        </article>
+    </section>
+    <footer>
+        <p>2022</p>
+    </footer>
+</body>
+</html>

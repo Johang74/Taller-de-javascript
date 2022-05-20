@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiencia laboral</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+
+<body onload="main()">
+    
+    <header>
+        <h1>Experiencia laboral</h1>
+        <ul class="navegacion">
+            <li class="navegacion" ><a class="navegacion" href="index.html">Informacion principal</a></li>
+            <li class="navegacion activa"><a  class="navegacion"href="experiencia.html">Experiencia laboral</a></li>
+            <li class="navegacion"><a  class="navegacion"href="referencias_personales.html">Referencias personales</a></li>
+            <li class="navegacion"><a  class="navegacion"href="referencias_familiares.html">Referencias familiares</a></li>
+            <li class="navegacion"><a  class="navegacion"href="estudios.html">Estudios realizados</a></li>
+          </ul>
+    </header>
+    <header class="botones">
+        <button class="boton boton1" onclick="cambiarColor1()" >Color 1</button>
+        <button class="boton boton2" onclick="cambiarColor2()">Color 2 </button>
+        <button class="boton boton3" onclick="cambiarColor3()">Color 3</button>
+    </header>
+    <section>
+        <article>
+            <h2>Experiencia laboral</h2>
+            <p>Clic en cada elemento para ocultar</p>
+            <table border="3">
+    
+                <tr onclick="mostrar()">
+                  <th>Empresa</th>
+                  <th>Fecha</th>
+                  <th>Cargo</th>
+                </tr>
+              
+                <tr class="ocultar" id="1" onclick="ocultar(1)">
+                    <td>InverJeans</td>
+                    <td>2018-2022</td>
+                    <td>Operario</td>
+                
+                </tr>
+                <tr class="ocultar" id="2" onclick="ocultar(2)">
+                    <td>CyS</td>
+                    <td>2017-2018</td>
+                    <td>Operario</td>
+                </tr>
+                <tr class="ocultar" id="3" onclick="ocultar(3)">
+                    <td>Ejercito nacional</td>
+                    <td>2016-2017</td>
+                    <td>Soldado</td>
+                </tr>
+                <tr class="ocultar" id="4" onclick="ocultar(4)">
+                    <td>Angelica</td>
+                    <td>2014-2015</td>
+                    <td>Operario</td>
+                </tr>
+              
+              </table>
+        </article>
+       
+    </section>
+    <footer>
+        <p>2022</p>
+    </footer>
+</body>
+</html>

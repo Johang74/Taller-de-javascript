@@ -1,0 +1,137 @@
+h1,footer{
+    padding: 28px;
+    text-align: center;
+    background: #B4CF66;
+    color: #146152;
+    font-size: 30px;
+    border-radius: 15px;
+    /*box-shadow: 6px 20px 10px black;*/
+  }
+
+img {
+    border: 10px groove white;
+    box-shadow: 4px 8px 8px ghostwhite;
+}
+h2 {
+     color: #146152;
+}
+
+table{
+    width: 100%;
+    background-color: #B4CF66;
+    border-collapse: collapse;
+    border: solid 1px white;
+   
+}
+
+td, tr{
+    border: solid 1px white;
+    
+}
+th{
+    background-color: #146152;
+}
+
+ul.navegacion {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #44803F;
+    border-radius: 12px;
+}
+
+li.navegacion {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li.navegacion a.navegacion {
+    display: block;
+    color: white;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li.navegacion a.navegacion:hover {
+    background-color: #146152;
+}
+
+.activa {
+    background-color: #44803F;
+}
+
+body{
+    width:850px;
+    margin:0px auto;
+    background-color: #353535;
+  }
+
+
+article{
+    padding: 15px;
+    text-align: center;
+    background: #353535;
+    color: black;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 2px groove #44803F;
+    margin-top: 25px;
+      
+}
+
+.boton{
+    background-color: #44803F;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    
+}
+.boton2{
+    background-color: #44803F;
+}
+
+.boton3{
+    background-color: #44803F;
+}
+.boton:hover {
+    background-color: #008F8C; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boton2:hover {
+    background-color: #FF6B1A; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.boton3:hover {
+    background-color: #146152; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.botones{
+    text-align: center;
+}
+
+ol{
+    list-style-type: none;
+}
+footer{
+    margin-top: 25px;
+}
+*{
+    color: white;
+}
